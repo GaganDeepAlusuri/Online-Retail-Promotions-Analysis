@@ -1,0 +1,39 @@
+
+<table style="text-align:center"><tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="3"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="3" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="3">spend</td></tr>
+<tr><td style="text-align:left"></td><td><em>glm: quasipoisson</em></td><td><em>hurdle</em></td><td><em>zero-inflated</em></td></tr>
+<tr><td style="text-align:left"></td><td><em>link = log</em></td><td><em></em></td><td><em>count data</em></td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">recency</td><td>0.003<sup>***</sup> (0.001)</td><td>0.007<sup>***</sup> (0.001)</td><td>0.004 (0.010)</td></tr>
+<tr><td style="text-align:left">factor(historycategory)1</td><td>-0.126<sup>***</sup> (0.008)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">zipcodeUrban</td><td>0.112<sup>***</sup> (0.010)</td><td>0.108<sup>***</sup> (0.010)</td><td>0.138 (0.088)</td></tr>
+<tr><td style="text-align:left">campaignMens E-Mail</td><td>-0.011 (0.010)</td><td>-0.014 (0.010)</td><td>-0.085 (0.374)</td></tr>
+<tr><td style="text-align:left">campaignWomens E-Mail</td><td>0.054<sup>***</sup> (0.010)</td><td>0.062<sup>***</sup> (0.011)</td><td>0.501 (0.418)</td></tr>
+<tr><td style="text-align:left">mens</td><td></td><td></td><td>0.498<sup>**</sup> (0.238)</td></tr>
+<tr><td style="text-align:left">womens</td><td></td><td></td><td>0.212 (0.232)</td></tr>
+<tr><td style="text-align:left">history</td><td></td><td>0.00004<sup>***</sup> (0.00001)</td><td>-0.00004 (0.0002)</td></tr>
+<tr><td style="text-align:left">newcustomer1</td><td>0.020<sup>***</sup> (0.007)</td><td>0.009 (0.008)</td><td>-0.247 (0.184)</td></tr>
+<tr><td style="text-align:left">visit</td><td>0.022 (168.068)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">conversion1</td><td>25.062 (155.945)</td><td></td><td></td></tr>
+<tr><td style="text-align:left">channelPhone</td><td></td><td>0.070<sup>***</sup> (0.012)</td><td></td></tr>
+<tr><td style="text-align:left">channelWeb</td><td></td><td>0.068<sup>***</sup> (0.012)</td><td></td></tr>
+<tr><td style="text-align:left">channelphone</td><td></td><td></td><td>-0.327 (0.234)</td></tr>
+<tr><td style="text-align:left">channelweb</td><td></td><td></td><td>-0.306 (0.230)</td></tr>
+<tr><td style="text-align:left">campaignMens E-Mail:mens</td><td></td><td></td><td>-0.302 (0.279)</td></tr>
+<tr><td style="text-align:left">campaignWomens E-Mail:mens</td><td></td><td></td><td>-0.768<sup>**</sup> (0.309)</td></tr>
+<tr><td style="text-align:left">campaignMens E-Mail:womens</td><td></td><td></td><td>-0.171 (0.273)</td></tr>
+<tr><td style="text-align:left">campaignWomens E-Mail:womens</td><td></td><td></td><td>-0.853<sup>***</sup> (0.304)</td></tr>
+<tr><td style="text-align:left">campaignMens E-Mail:newcustomer1</td><td></td><td></td><td>0.319 (0.214)</td></tr>
+<tr><td style="text-align:left">campaignWomens E-Mail:newcustomer1</td><td></td><td></td><td>0.286 (0.224)</td></tr>
+<tr><td style="text-align:left">campaignMens E-Mail:channelphone</td><td></td><td></td><td>0.183 (0.278)</td></tr>
+<tr><td style="text-align:left">campaignWomens E-Mail:channelphone</td><td></td><td></td><td>0.386 (0.298)</td></tr>
+<tr><td style="text-align:left">campaignMens E-Mail:channelweb</td><td></td><td></td><td>0.229 (0.276)</td></tr>
+<tr><td style="text-align:left">campaignWomens E-Mail:channelweb</td><td></td><td></td><td>0.317 (0.296)</td></tr>
+<tr><td style="text-align:left">history:campaignMens E-Mail</td><td></td><td></td><td>0.0001 (0.0003)</td></tr>
+<tr><td style="text-align:left">history:campaignWomens E-Mail</td><td></td><td></td><td>0.0001 (0.0003)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>-20.379 (62.675)</td><td>4.544<sup>***</sup> (0.017)</td><td>4.619<sup>***</sup> (0.332)</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>64,000</td><td>64,000</td><td>64,000</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td></td><td>-27,366.310</td><td>-5,457.253</td></tr>
+<tr><td colspan="4" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="3" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
